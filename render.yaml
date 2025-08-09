@@ -20,6 +20,8 @@ services:
         value: "Lucus@2006"
       - key: GENERIC_TIMEZONE
         value: Asia/Kolkata
+      - key: N8N_PROTOCOL
+        value: https
     disk:
       name: n8n-storage
       mountPath: /home/node/.n8n
