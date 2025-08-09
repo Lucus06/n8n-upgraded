@@ -1,0 +1,8 @@
+FROM n8nio/n8n
+
+ENV N8N_BASIC_AUTH_ACTIVE=true
+ENV N8N_BASIC_AUTH_USER=lucus
+ENV N8N_BASIC_AUTH_PASSWORD=Lucus@2006
+
+# Persist data
+VOLUME /home/node/.n8n
